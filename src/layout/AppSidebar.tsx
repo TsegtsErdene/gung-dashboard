@@ -10,14 +10,10 @@ import {
   ChevronDownIcon,
   GridIcon,
   HorizontaLDots,
-  ListIcon,
-  PageIcon,
   PieChartIcon,
   PlugInIcon,
-  TableIcon,
   UserCircleIcon,
 } from "../icons/index";
-import SidebarWidget from "./SidebarWidget";
 
 type NavItem = {
   name: string;
@@ -30,7 +26,7 @@ const navItems: NavItem[] = [
   {
     icon: <GridIcon />,
     name: "Dashboard",
-    subItems: [{ name: "Dashboard 1", path: "/dashboard-1", pro: false },{ name: "Dashboard 2", path: "/dashboard-2", pro: false }],
+    subItems: [{ name: "Dashboard 1", path: "/", pro: false },{ name: "Dashboard 2", path: "/dashboard-2", pro: false }],
   },
   {
     icon: <CalenderIcon />,
