@@ -324,7 +324,7 @@ const AppSidebar: React.FC = () => {
             </>
           ) : (
             <Image
-              src="/images/logo/logo-icon.svg"
+              src="/images/logo/club-logo.svg"
               alt="Logo"
               width={32}
               height={32}
